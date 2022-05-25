@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CachingSystems.InMemory", "CachingSystems.InMemory\CachingSystems.InMemory.csproj", "{DC554122-C040-404A-9184-3407E87524CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingSystems.Redis", "CachingSystems.Redis\CachingSystems.Redis.csproj", "{412E48E0-72BB-435D-BC08-FAB301C2E5F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC554122-C040-404A-9184-3407E87524CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC554122-C040-404A-9184-3407E87524CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC554122-C040-404A-9184-3407E87524CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC554122-C040-404A-9184-3407E87524CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412E48E0-72BB-435D-BC08-FAB301C2E5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412E48E0-72BB-435D-BC08-FAB301C2E5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412E48E0-72BB-435D-BC08-FAB301C2E5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412E48E0-72BB-435D-BC08-FAB301C2E5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00AD1890-1F50-4C83-926D-8461227C97FE}
+	EndGlobalSection
+EndGlobal
